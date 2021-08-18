@@ -8,7 +8,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-            <h1>Is it settings or not?</h1>
+            <h1>Это третья проверочная ссылка, нужно перейти по второй.</h1>
         `
     }
 }

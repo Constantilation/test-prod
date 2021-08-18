@@ -10,8 +10,8 @@ export default class extends AbstractView {
     async getHtml() {
         console.log(this.postId);
         return `
-            <h1>Posts</h1>
-            <p>You are viewing posts!</p>
+            <h1>Все верно, переход по ссылке зафиксирован</h1>
+            <p>Спасибо за тест</p>
         `;
     }
 }

@@ -9,7 +9,7 @@ export default class extends AbstractView {
     async getHtml() {
         return `
             <h1>Да, это вторая проверочная ссылка</h1>
-            <p>Теперь попробуй перейти по ссылке https://forsometests.netlify.app/posts/1</p>
+            <p>Теперь попробуй перейти по <a href="https://forsometests.netlify.app/posts/1">этой</a> ссылке</p>
         `
     }
 }
