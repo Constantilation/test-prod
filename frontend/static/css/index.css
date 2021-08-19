@@ -37,6 +37,7 @@ a {
 }
 
 #false_button {
+    -webkit-appearance: none;
     float: left;
     height: 100px;
     width: 100px;
@@ -44,6 +45,7 @@ a {
     position: absolute;
 }
 #true_button {
+    -webkit-appearance: none;
     float: left;
     height: 100px;
     width: 100px;
