@@ -38,7 +38,7 @@ a {
 
 #false_button {
     -webkit-appearance: none;
-    float: left;
+    float: right;
     height: 100px;
     width: 100px;
     z-index: 1;
