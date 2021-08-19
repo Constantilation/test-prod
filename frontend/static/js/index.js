@@ -49,6 +49,16 @@ const router = async () => {
     const view = new match.route.view(getParams(match));
 
     document.querySelector("#app").innerHTML = await view.getHtml();
+
+
+    let flaseBtn = document.querySelector("#false_button");
+
+    flaseBtn.addEventListener("click", () => {
+        let randY = Math.floor((Math.random() * document.documentElement.clientHeight) + 1);
+        let randX = Math.floor((Math.random() * document.documentElement.clientWidth) + 1);
+        flaseBtn.style.top = randY + "px";
+        flaseBtn.style.right = randX + "px";
+    })
 };
 
 window.addEventListener("popstate", router)
@@ -60,5 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
             navigateTo(e.target.href);
         }
     })
+
     router();
 });
